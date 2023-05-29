@@ -1,7 +1,7 @@
 public class AverageCalculator {
     public static double calculate(int[] numbers) {
         if (numbers == null || numbers.length == 0) {
-            throw new IllegalArgumentException("The numbers array cannot be null or empty");
+            throw new IllegalArgumentException("A lista de números não pode ser vazia ou nula");
         }
 
         int sum = 0;
